@@ -26,6 +26,8 @@ public class DamaMatch {
 	}
 	private void initialSetup() {
 		board.placePiece(new Piece(board, Color.BLACK), new Position(1, 0));
+		board.placePiece(new Piece(board, Color.BLACK), new Position(2, 0));
+		board.placePiece(new Piece(board, Color.BLACK), new Position(3, 0));
 	}
 	
 }

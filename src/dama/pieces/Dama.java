@@ -17,7 +17,6 @@ public class Dama extends DamaPiece {
 			return "B";
 		} else {
 			return "W";
-
 		}
 	}
 }
